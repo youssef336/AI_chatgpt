@@ -10,6 +10,11 @@
   <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-3DDC84?style=for-the-badge" alt="Platform" />
 </p>
 
+<p align="center">
+  <img src="docs/screens.jpg" alt="Screens" width="100%"/>
+  <br/><sub>Home · AI chat · Waiting for a reply</sub>
+</p>
+
 ## About
 
 A chat app that sends your messages to **Gemini 2.5 Flash** through the `firebase_ai` SDK and shows the replies as chat bubbles. The app has no backend of its own: the model is called through Firebase AI Logic, so you do not need a separate Gemini API key. The conversation is saved as JSON in `shared_preferences`, so it is still there after a restart, and you can clear it with one tap.
